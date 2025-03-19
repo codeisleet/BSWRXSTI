@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSWRXSTI - Coming Soon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #121212;
+            color: #fff;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('https://placehold.co/1920x1080/121212/ffcc01?text=Kangaroo+Casino+Image');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            padding: 2rem;
+            background-color: rgba(18, 18, 18, 0.9);
+            border-radius: 10px;
+            border: 1px solid #ffcc01;
+            box-shadow: 0 0 20px rgba(255, 204, 1, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .background-logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            opacity: 0.05;
+            z-index: 0;
+        }
+        
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(90deg, #ffcc01, #ffaa00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #cccccc;
+        }
+        
+        .coming-soon {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #ffcc01;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+        
+        .countdown {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            color: #ffcc01;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background-color: #1a1a1a;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 1px solid #ffcc01;
+        }
+        
+        .social-links a:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 15px rgba(255, 204, 1, 0.5);
+            background-color: #ffcc01;
+            color: #121212;
+        }
+        
+        .btn {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.8rem 2rem;
+            background-color: #ffcc01;
+            color: #121212;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(255, 204, 1, 0.7);
+            background-color: #ffaa00;
+        }
+        
+        .logo {
+            width: 200px;
+            height: auto;
+            margin: 0 auto 1.5rem;
+        }
+        
+        .kangaroo-image {
+            max-width: 200px;
+            margin: 0 auto 2rem;
+            border-radius: 10px;
+            border: 2px solid #ffcc01;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 1.5rem;
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .coming-soon {
+                font-size: 1.5rem;
+            }
+            
+            .social-links {
+                gap: 1rem;
+            }
+            
+            .social-links a {
+                width: 50px;
+                height: 50px;
+                font-size: 1.2rem;
+            }
+            
+            .kangaroo-image {
+                max-width: 150px;
+            }
+            
+            .logo {
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Logo-RGB-08.png" alt="Logo Background" class="background-logo">
+        <div class="content">
+            <img src="Logo-RGB-01.png" alt="BSWRXSTI Logo" class="logo">
+            <h1>BSWRXSTI</h1>
+            <p class="tagline">Gaming streamer & content creator</p>
+            
+            <div class="coming-soon">Coming Soon</div>
+            
+            <p>Our website is under construction. We're working hard to bring you an awesome gaming experience!</p>
+            <p>Follow our social media for updates and join the community.</p>
+            
+            <div class="social-links">
+                <a href="https://kick.com/bswrxsti" target="_blank" title="Kick.com">
+                    <i class="fas fa-tv"></i>
+                </a>
+                <a href="https://discord.com/invite/Tt2U3fvsMY" target="_blank" title="Discord">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <a href="https://botrix.live/k/bswrxsti/tip" target="_blank" title="Donate">
+                    <i class="fas fa-hand-holding-dollar"></i>
+                </a>
+                <a href="https://roobet.com/?ref=bswrxsti" target="_blank" title="Roobet">
+                    <i class="fas fa-dice"></i>
+                </a>
+                <a href="https://twitter.com/bswrxsti" target="_blank" title="Twitter/X">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+            </div>
+            
+            <a href="https://roobet.com/?ref=bswrxsti" class="btn" target="_blank">Play with BSWRXSTI</a>
+        </div>
+    </div>
+
+    <script>
+        // Simple animation for the coming soon text
+        const comingSoon = document.querySelector('.coming-soon');
+        
+        setInterval(() => {
+            comingSoon.style.opacity = 0.5;
+            setTimeout(() => {
+                comingSoon.style.opacity = 1;
+            }, 1000);
+        }, 2000);
+    </script>
+</body>
+</html> 
